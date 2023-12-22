@@ -49,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34650BAB2B356D0800D8CEF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34A12E7A2B3506F9006A2E48 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34650BAC2B356D2000D8CEF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34A12E7E2B350D4D006A2E48 /* ModelData.swift */,
+				34A12E7C2B350753006A2E48 /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		347E2C792B3128E400897F76 = {
 			isa = PBXGroup;
 			children = (
@@ -69,13 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				34A12E802B350ED9006A2E48 /* Views */,
-				34A12E7C2B350753006A2E48 /* Landmark.swift */,
-				34A12E7E2B350D4D006A2E48 /* ModelData.swift */,
+				34650BAC2B356D2000D8CEF8 /* Model */,
 				347E2C852B3128E400897F76 /* LandmarksApp.swift */,
 				347E2C892B3128E500897F76 /* Assets.xcassets */,
 				347E2C8B2B3128E500897F76 /* Landmarks.entitlements */,
 				347E2C8C2B3128E500897F76 /* Preview Content */,
-				34A12E7A2B3506F9006A2E48 /* landmarkData.json */,
+				34650BAB2B356D0800D8CEF8 /* Resources */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
