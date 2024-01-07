@@ -35,9 +35,9 @@ struct LandmarkList: View {
                     }
                 }
             }
-            
             .animation(.default, value: fillteredList)
             .navigationTitle("Landmark")
+            
         } detail: {
             Text("Select a Landmark")
         }

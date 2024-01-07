@@ -19,10 +19,12 @@ struct MapView: View {
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+            span: MKCoordinateSpan(
+                latitudeDelta: 0.2,
+                longitudeDelta: 0.2
+            )
         )
     }
-    
 }
 
 

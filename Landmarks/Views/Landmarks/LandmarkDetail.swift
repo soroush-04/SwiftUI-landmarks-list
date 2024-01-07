@@ -32,31 +32,29 @@ struct LandmarkDetail: View {
                 HStack{
                     Text(landmark.name)
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(
+                        isSet: $modelData.landmarks[landmarkIndex].isFavorite
+                    )
                 }
                 HStack {
                     Text(landmark.park)
                     Spacer()
                     Text(landmark.state)
                 }
-                    
+                
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 
                 Divider()
-
-
+                
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text(landmark.description)
-
             }
             .padding(20)
-            
         }
         .navigationTitle(landmark.name)
-//        .navigationBarTitleDisplayMode(.inline)
-
+        //        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
